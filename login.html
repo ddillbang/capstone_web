@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>obeta</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1><a href="index.html">OWNBOOK</a></h1>
+        <ul class="menu">
+            <li><a href="#">HOME</a></li>
+            <li><a href="">CHEAT</a></li>
+            <li><a href="login.html">LOGIN</a></li>            
+            <!-- <li><a href=""></a>메뉴4</li>                        -->
+        </ul>
+    </div>
+    <script>
+        function login_ (){
+            var getID = document.getElementById("ID");
+            var getPW = document.getElementById("PASSWORD");
+
+            if(ID != null){
+                alert("id = " + getID.value +"\n" + "password = " + getPW.value);
+            }
+        }
+
+
+    </script>
+    <div class = "login">
+        <div class = >
+            ID : <input type="text" id = "ID">
+            PASSWORD : <input type = "password" id = "PASSWORD">
+            <input type="button" value="로그인" onclick="login_()">
+            <input type="button" value="아이디 찾기">
+            <input type="button" value="패스워드 찾기">
+        </div>
+    </div>
+
+    <div class="container">
+        
+        <div class="content1">
+
+        </div>
+        <div class="content2">
+
+        </div>
+    </div>
+</body>
+</html>
