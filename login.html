@@ -26,15 +26,18 @@
             }
         }
 
-
     </script>
     <div class = "login">
-        <div class = >
-            ID : <input type="text" id = "ID">
-            PASSWORD : <input type = "password" id = "PASSWORD">
-            <input type="button" value="로그인" onclick="login_()">
-            <input type="button" value="아이디 찾기">
-            <input type="button" value="패스워드 찾기">
+        <h1 style="margin-left: 20px;">로그인</h1>
+        <div class = login_a style="text-align: center; height: 200px;">
+            <input type="text" id = "ID" placeholder = "아이디를 입력해주세요." style = "width: 450px; height: 40px; margin-top: 10px;margin-bottom: 5px; border-radius: 7px;">
+            <input type = "password" id = "PASSWORD" placeholder = "비밀번호를 입력해주세요." style = "width: 450px; height: 40px; margin-bottom: 15px; border-radius: 7px;">
+            <input type="button" value="로그인" onclick="login_()" style = "width: 450px; height: 40px; border-radius: 7px;">
+        </div>
+        <div class = login_b style="text-align: center">
+            <a href="#">아이디 찾기</a> / 
+            <a href="#">비밀번호 찾기</a> / 
+            <a href="#">회원가입</a>
         </div>
     </div>
 
